@@ -36,57 +36,63 @@ public class LivingThing {
         return dead;
     }
 
-    /*
+    /**
      * getterメソッドと同等。モンスターと勇者の名前を変数nameに保存する。
-     *
+     * @return name 名前
      */
     public String getName(){
         return name;
     }
 
-    /*
+    /**
      *getterメソッド。
      * キャラクターのHPを保存する。
+     * @return hitpoint　HP
      */
     public int getHitPoint(){
         return hitPoint;
     }
 
-    /*
+    /**
      *getterメソッド。
      * キャラクターの攻撃力を保存する。
+     * @return attack　攻撃力
      */
     public int getAttack() {
         return attack;
     }
 
-    /*
+    /**
      *getterメソッド。
      * キャラクターの攻撃力を保存する。
+     * @param attack 攻撃力
      */
     public void setAttack(int attack) {
         this.attack = attack;
     }
 
-    /*
+    /**
      *getterメソッド。
      * キャラクターのHPを保存する。
+     * @param hitPoint　HP
      */
     public void setHitPoint(int hitPoint) {
         this.hitPoint = hitPoint;
     }
 
-    /*
+    /**
      *getterメソッド。
      * キャラクターの生死状態を保存する。
+     * @param dead　生死状態
      */
     public void setDead(boolean dead) {
         this.dead = dead;
     }
 
-    /*
+    /**
      *getterメソッド。
      * キャラクターの名前を保存する。
+     * @param name 名前
      */
     public void setName(String name) {
         this.name = name;
